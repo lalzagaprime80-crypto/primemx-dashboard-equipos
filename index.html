@@ -3,71 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex, nofollow">
-  <meta http-equiv="refresh" content="3; url=https://lordsnow1980.github.io/prime/">
-  <title>Sistema trasladado — PrimeMX</title>
+  <title>Proyectos PrimeMX</title>
   <style>
-    :root {
-      color-scheme: dark;
-      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #09111f;
-      color: #e8eef9;
-    }
-    * { box-sizing: border-box; }
-    body {
-      min-height: 100vh;
-      margin: 0;
-      display: grid;
-      place-items: center;
-      padding: 24px;
-      background: radial-gradient(circle at top, #17315d 0, #09111f 52%);
-    }
-    main {
-      width: min(560px, 100%);
-      padding: 40px;
-      text-align: center;
-      background: rgba(13, 27, 49, .94);
-      border: 1px solid #2d4f7f;
-      border-radius: 20px;
-      box-shadow: 0 24px 70px rgba(0, 0, 0, .38);
-    }
-    .mark {
-      width: 62px;
-      height: 62px;
-      margin: 0 auto 20px;
-      display: grid;
-      place-items: center;
-      border-radius: 18px;
-      background: #1f6feb;
-      font-size: 30px;
-      font-weight: 800;
-    }
-    h1 { margin: 0 0 12px; font-size: clamp(26px, 5vw, 36px); }
-    p { margin: 0 0 26px; color: #b8c6da; line-height: 1.6; }
-    a {
-      display: inline-block;
-      padding: 13px 22px;
-      border-radius: 10px;
-      background: #1f6feb;
-      color: #fff;
-      font-weight: 700;
-      text-decoration: none;
-    }
-    small { display: block; margin-top: 22px; color: #8194ae; }
+    :root{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:dark}
+    *{box-sizing:border-box}
+    body{min-height:100vh;margin:0;padding:32px;background:#08111f;color:#eef5ff}
+    main{width:min(1050px,100%);margin:0 auto}
+    header{margin:28px 0 34px}
+    .eyebrow{color:#54c8f4;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    h1{margin:8px 0 10px;font-size:clamp(32px,6vw,54px)}
+    header p{margin:0;color:#aebed2;font-size:17px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+    a{display:block;min-height:180px;padding:24px;border:1px solid #29405d;border-radius:18px;background:#0e1b2e;color:inherit;text-decoration:none;transition:.18s ease}
+    a:hover{transform:translateY(-3px);border-color:#49bfe9;background:#12243c}
+    .tag{display:inline-block;padding:5px 9px;border-radius:999px;background:#123a51;color:#7ddcff;font-size:12px;font-weight:800}
+    h2{margin:22px 0 8px;font-size:21px}
+    p{margin:0;color:#aebed2;line-height:1.55}
+    footer{margin-top:28px;color:#71839a;font-size:13px}
   </style>
 </head>
 <body>
   <main>
-    <div class="mark" aria-hidden="true">P</div>
-    <h1>Sistema trasladado</h1>
-    <p>El Control de Biométricos y Pinpads de PrimeMX ahora se encuentra en su versión protegida y centralizada.</p>
-    <a href="https://lordsnow1980.github.io/prime/">Abrir sistema vigente</a>
-    <small>Serás redirigido automáticamente en 3 segundos.</small>
+    <header>
+      <div class="eyebrow">PrimeMX</div>
+      <h1>Directorio de proyectos</h1>
+      <p>Cada sistema cuenta con una dirección independiente.</p>
+    </header>
+    <section class="grid">
+      <a href="proyecto-hub.html"><span class="tag">HUB</span><h2>Recolección de Equipos Obsoletos</h2><p>Solicitudes, HUBs, equipos y evidencia fotográfica.</p></a>
+      <a href="proyecto-auditoria-it.html"><span class="tag">AUDITORÍA</span><h2>Auditoría IT</h2><p>Checklist, hallazgos y evidencias de auditoría.</p></a>
+      <a href="control-biometricos-pinpad.html"><span class="tag">OPERACIÓN</span><h2>Biométricos y Pinpads</h2><p>Control centralizado de dispositivos y reemplazos.</p></a>
+      <a href="dashboard_equipos_pdv.html"><span class="tag">DASHBOARD</span><h2>Equipos PDV</h2><p>Dashboard operativo de equipos en puntos de venta.</p></a>
+      <a href="adquisicion_equipo_computo_2026.html"><span class="tag">2026</span><h2>Adquisición de Equipo</h2><p>Planeación y seguimiento de adquisición de cómputo.</p></a>
+    </section>
+    <footer>Directorio oficial de proyectos · PrimeMX</footer>
   </main>
-  <script>
-    window.setTimeout(function () {
-      window.location.replace('https://lordsnow1980.github.io/prime/');
-    }, 3000);
-  </script>
 </body>
 </html>
